@@ -37,6 +37,7 @@ a:hover {
     -o-background-size: cover;
     background-size: cover;
     position: relative;
+    text-align: center;
 }
 
 .bloc .container {
@@ -277,8 +278,8 @@ a:hover {
     margin-left: 0;
 }
 
-.row.row-no-gutters > [class^="col-"],
-.row.row-no-gutters > [class*=" col-"] {
+.row-no-gutters > [class^="col-"],
+.row-no-gutters > [class*=" col-"] {
     padding-right: 0;
     padding-left: 0;
     list-style: none;
@@ -706,7 +707,7 @@ p {
 }
 
 h2 {
-    font-size: 22px;
+    font-size: 25px;
     line-height: 1.4em;
 }
 
@@ -772,15 +773,15 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #F3976C;
+    background-color: #364777;
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: #FFFFFF!important;
 }
 
 .btn-atomic-tangerine {
-    background: #F3976C;
+    background: #364777;
     color: #FFFFFF!important;
 }
 
@@ -798,7 +799,7 @@ h4 {
 }
 
 .ltc-atomic-tangerine {
-    color: #F3976C!important;
+    color: #364777!important;
 }
 
 .ltc-atomic-tangerine:hover {
@@ -983,8 +984,7 @@ h4 {
     .bloc-lg {
         padding: 40px 0;
     }
-    .bloc-sm,
-    .bloc-md {
+    .bloc-sm {
         padding-left: 0;
         padding-right: 0;
     }
