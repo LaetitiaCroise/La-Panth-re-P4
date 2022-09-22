@@ -375,7 +375,7 @@ a:hover {
 }
 
 blockquote {
-    background-color: #757983;
+    background-color:#364577;
     border-radius: 35px;
     color: #FFFFFF;
     padding: 35px;
@@ -780,7 +780,8 @@ h4 {
 }
 
 .btn-atomic-tangerine:hover {
-    background: #c27956 !important;
+    background: #466696 !important;
+    
     color: #FFFFFF !important;
 }
 
