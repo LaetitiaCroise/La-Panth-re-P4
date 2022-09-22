@@ -565,7 +565,7 @@ a[data-lightbox]:hover img {
     padding: 20px;
     color: #FFF;
     background: rgba(0, 0, 0, .5);
-    position: absolute;
+    /* position: absolute; */
     left: 15px;
     right: 15px;
     bottom: 5px;
@@ -614,9 +614,9 @@ a[data-lightbox]:hover img {
     left: 25px;
 }
 
-.snapshot-lb .modal-body {
+/* .snapshot-lb .modal-body {
     padding-bottom: 45px;
-}
+} */
 
 .snapshot-lb .lightbox-caption {
     padding: 0;
@@ -664,8 +664,8 @@ a {
 
 p {
     font-size: 20px;
-    margin-bottom: 30px;
-    margin-top: 30px;
+    /* margin-bottom: 30px;
+    margin-top: 30px; */
 }
 
 .tight-width-whitespace {
