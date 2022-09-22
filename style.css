@@ -375,7 +375,7 @@ a:hover {
 }
 
 blockquote {
-    background-color:#364577;
+    background-color: #364577;
     border-radius: 35px;
     color: #FFFFFF;
     padding: 35px;
@@ -559,6 +559,8 @@ a[data-lightbox]:hover img {
 #lightbox-modal .modal-dialog img {
     max-height: 90vh;
     margin: 0 auto;
+    width: 100%;
+    object-fit: cover;
 }
 
 .lightbox-caption {
@@ -781,7 +783,7 @@ h4 {
 
 .btn-atomic-tangerine:hover {
     background: #466696 !important;
-    
+
     color: #FFFFFF !important;
 }
 
