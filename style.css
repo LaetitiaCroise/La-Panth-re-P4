@@ -46,7 +46,7 @@ a:hover {
 }
 
 .bloc-lg {
-    padding: 100px 50px;
+    padding: 80px 50px;
 }
 
 .bloc-md {
@@ -381,6 +381,7 @@ blockquote {
     padding: 35px;
     border: none;
     margin-bottom: 55px;
+    margin-top: 55px;
     font-size: 20px;
 }
 
@@ -493,6 +494,7 @@ button {
 .form-control {
     border-color: rgba(0, 0, 0, .1);
     box-shadow: none;
+    padding: 6px 80px;
 }
 
 .scrollToTop {
@@ -616,9 +618,10 @@ a[data-lightbox]:hover img {
     left: 25px;
 }
 
-/* .snapshot-lb .modal-body {
-    padding-bottom: 45px;
-} */
+.col-sm-12{
+    text-align: center;
+    margin-bottom: 20px;
+}
 
 .snapshot-lb .lightbox-caption {
     padding: 0;
@@ -639,16 +642,20 @@ a {
     font-family: "helvetica";
     font-weight: 400;
     color: #575757 !important;
+    text-align: left;
+    font-size: 20px;
 }
+.form-group {
+    text-align: left;
+}
+
+
 
 
 .container {
     max-width: 1000px;
 }
 
-.hero-bloc-text {
-    font-size: 38px;
-}
 
 .hero-bloc-text-sub {
     font-size: 36px;
@@ -666,8 +673,9 @@ a {
 
 p {
     font-size: 20px;
-    /* margin-bottom: 30px;
-    margin-top: 30px; */
+    text-align: center;
+    margin-bottom: 25px;
+  
 }
 
 .tight-width-whitespace {
@@ -682,6 +690,7 @@ p {
 
 .title-h2 {
     margin-top: 30px;
+    text-align: center;
 }
 
 .cta-hero {
@@ -691,6 +700,7 @@ p {
     padding: 12px 28px 12px 28px;
     font-size: 16px;
     font-weight: 700;
+    text-align: center;
 }
 
 .social {
@@ -739,10 +749,10 @@ h4 {
     width: 100%;
 }
 
-.portfolio-row {
+/* .portfolio-row {
     margin-bottom: 44px;
     margin-top: 50px;
-}
+} */
 
 .avatar {
     box-shadow: 0px 4px 9px rgba(0, 0, 0, 0.3);
@@ -773,7 +783,7 @@ h4 {
 
 .tc-white {
     color: #FFFFFF !important;
-    font-size: 20px;
+    font-size: 23px;
 }
 
 .btn-atomic-tangerine {
