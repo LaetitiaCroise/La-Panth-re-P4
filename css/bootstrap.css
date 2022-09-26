@@ -7727,9 +7727,9 @@ button.close {
 }
 
 .center-block {
-    display: block;
+    display: flex;
     margin-right: auto;
-    margin-left: auto
+    margin-left: auto;
 }
 
 .pull-right {
