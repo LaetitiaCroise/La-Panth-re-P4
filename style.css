@@ -4,7 +4,6 @@ body {
     background: #FFF;
     overflow-x: hidden;
     -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
 }
 
 a,
@@ -33,8 +32,6 @@ a:hover {
     background: 50% 50% no-repeat;
     padding: 0 50px;
     -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
     background-size: cover;
     position: relative;
     text-align: center;
@@ -227,23 +224,7 @@ a:hover {
     border-color: rgba(0, 0, 0, .1);
 }
 
-.d-bloc .panel .a-btn,
-.l-bloc .a-btn,
-.l-bloc .navbar a,
-.l-bloc .navbar-brand,
-.l-bloc a .icon-sm,
-.l-bloc a .icon-md,
-.l-bloc a .icon-lg,
-.l-bloc a .icon-xl,
-.l-bloc h1 a,
-.l-bloc h2 a,
-.l-bloc h3 a,
-.l-bloc h4 a,
-.l-bloc h5 a,
-.l-bloc h6 a,
-.l-bloc p a {
-    color: rgba(0, 0, 0, .6);
-}
+
 
 .d-bloc .panel .a-btn:hover,
 .l-bloc .a-btn:hover,
@@ -308,7 +289,6 @@ a:hover {
     height: auto;
     padding: 3px 15px;
     font-size: 25px;
-    font-weight: normal;
     font-weight: 600;
     line-height: 44px;
 }
@@ -839,7 +819,6 @@ h4 {
         position: absolute;
         top: 50%;
         right: 20px;
-        transform: translate(0, -50%);
         -webkit-transform: translateY(-50%);
     }
 
@@ -926,12 +905,6 @@ h4 {
 
     .b-parallax {
         background-attachment: scroll;
-    }
-
-    .page-container,
-    #hero-bloc {
-        overflow-x: hidden;
-        position: relative;
     }
 
     .bloc {
@@ -1054,10 +1027,6 @@ h4 {
         margin-left: 10px;
     }
 
-    .bloc {
-        padding-left: 0;
-        padding-right: 0;
-    }
 
     .bloc-xxl,
     .bloc-xl,
