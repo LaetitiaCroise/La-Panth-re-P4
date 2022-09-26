@@ -224,7 +224,23 @@ a:hover {
     border-color: rgba(0, 0, 0, .1);
 }
 
-
+.d-bloc .panel .a-btn,
+.l-bloc .a-btn,
+.l-bloc .navbar a,
+.l-bloc .navbar-brand,
+.l-bloc a .icon-sm,
+.l-bloc a .icon-md,
+.l-bloc a .icon-lg,
+.l-bloc a .icon-xl,
+.l-bloc h1 a,
+.l-bloc h2 a,
+.l-bloc h3 a,
+.l-bloc h4 a,
+.l-bloc h5 a,
+.l-bloc h6 a,
+.l-bloc p a {
+    color: rgba(0, 0, 0, .6);
+}
 
 .d-bloc .panel .a-btn:hover,
 .l-bloc .a-btn:hover,
@@ -289,6 +305,7 @@ a:hover {
     height: auto;
     padding: 3px 15px;
     font-size: 25px;
+    font-weight: normal;
     font-weight: 600;
     line-height: 44px;
 }
@@ -819,6 +836,7 @@ h4 {
         position: absolute;
         top: 50%;
         right: 20px;
+        transform: translate(0, -50%);
         -webkit-transform: translateY(-50%);
     }
 
