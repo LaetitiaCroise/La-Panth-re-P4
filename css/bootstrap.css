@@ -105,9 +105,6 @@ svg:not(:root) {
     overflow: hidden
 }
 
-figure {
-    margin: 1em 40px
-}
 
 hr {
     height: 0;
@@ -1571,11 +1568,6 @@ h1 {
 .h2,
 h2 {
     font-size: 30px
-}
-
-.h3,
-h3 {
-    font-size: 24px
 }
 
 .h4,
@@ -5012,7 +5004,6 @@ textarea.input-group-sm>.input-group-btn>.btn {
 .navbar {
     position: relative;
     min-height: 50px;
-    margin-bottom: 20px;
     border: 1px solid transparent
 }
 
@@ -5029,13 +5020,13 @@ textarea.input-group-sm>.input-group-btn>.btn {
 }
 
 .navbar-collapse {
-    padding-right: 15px;
+    /* padding-right: 15px;
     padding-left: 15px;
     overflow-x: visible;
-    -webkit-overflow-scrolling: touch;
+    -webkit-overflow-scrolling: touch; */
     border-top: 1px solid transparent;
-    -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, .1);
-    box-shadow: inset 0 1px 0 rgba(255, 255, 255, .1)
+    /* -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, .1);
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, .1) */
 }
 
 .navbar-collapse.in {
@@ -5142,10 +5133,10 @@ textarea.input-group-sm>.input-group-btn>.btn {
 .navbar-brand:hover {
     text-decoration: none
 }
-
+/* 
 .navbar-brand>img {
     display: block
-}
+} */
 
 @media (min-width:768px) {
     .navbar>.container .navbar-brand,
