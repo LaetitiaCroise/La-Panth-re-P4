@@ -946,7 +946,7 @@ h4 {
     }
 }
 
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+/* @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
     .b-parallax {
         background-attachment: scroll;
     }
@@ -956,7 +956,7 @@ h4 {
     .b-parallax {
         background-attachment: scroll;
     }
-}
+} */
 
 @media (max-width: 991px) {
     .container {
@@ -967,10 +967,10 @@ h4 {
         background-attachment: scroll;
     }
 
-    .bloc {
+    /* .bloc {
         padding-left: constant(safe-area-inset-left);
         padding-right: constant(safe-area-inset-right);
-    }
+    } */
 
     .bloc-group,
     .bloc-group .bloc {
@@ -978,12 +978,12 @@ h4 {
         width: 100%;
     }
 
-    .bloc-fill-screen .fill-bloc-top-edge,
+    /* .bloc-fill-screen .fill-bloc-top-edge,
     .bloc-fill-screen .fill-bloc-bottom-edge {
         padding: 0 20px;
         padding-left: constant(safe-area-inset-left);
         padding-right: constant(safe-area-inset-right);
-    }
+    } */
 }
 
 @media (max-width: 767px) {
