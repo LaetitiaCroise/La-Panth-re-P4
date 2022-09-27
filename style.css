@@ -382,7 +382,7 @@ a:hover {
     z-index: 2;
 }
 
-blockquote {
+.text-center-pad {
     background-color: #364577;
     border-radius: 35px;
     color: #FFFFFF;
@@ -390,13 +390,14 @@ blockquote {
     border: none;
     margin-bottom: 55px;
     margin-top: 55px;
-    margin-left: 0;
-    margin-right: 0;
     font-size: 20px;
 }
 
 figcaption {
     padding: 20px 0 0 0;
+}
+blockquote {
+    margin: 0 ;
 }
 
 .nav>li>.dropdown a {
@@ -545,6 +546,7 @@ a[data-lightbox]:hover::before {
     color: #FFF;
     font-weight: 100;
     z-index: 1;
+    padding-top: 7px;
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
@@ -831,7 +833,6 @@ h4 {
 
 .btn-atomic-tangerine:hover {
     background: #466696 !important;
-
     color: #FFFFFF !important;
 }
 
@@ -872,7 +873,7 @@ h4 {
     background-image: url("img/image-de-presentation-min.webp");
 }
 
-@media (min-width: 768px) {
+/* @media (min-width: 768px) {
     .site-navigation {
         position: absolute;
         top: 50%;
@@ -918,7 +919,7 @@ h4 {
         float: none;
         margin: 10px auto 0;
     }
-}
+} */
 
 @media (max-width: 1024px) {
     .bloc {
@@ -935,7 +936,7 @@ h4 {
     }
 }
 
-@media (max-width: 992px) and (min-width: 768px) {
+@media (max-width: 992px) {
     .navbar .nav {
         max-width: 80%
     }
@@ -1178,4 +1179,8 @@ h4 {
         padding-left: 0;
         padding-right: 0;
     }
+    .text-center-pad {
+        border-radius: 0;
+    
+}
 }
